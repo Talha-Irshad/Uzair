@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    display:flex;
+    background: darkblue;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.child{
+    padding: 20px;
+}
+.company{
+    font-weight: bold;
+    font-size: 25pt;
+    color: white;
+}
+.navitem{
+    font-weight: bold;
+    font-size: 20pt;
+    color: white;
+    padding: 0 20px;
+}
+.links{
+    display: flex;
+}
+.cardContainer{
+    display: flex;
+    background: gray;
+    padding: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardBox{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardBox:hover{
+    background: rgb(48, 48, 48);
+    transition: 300ms;
+}
+.card{
+    height: 150px;
+    width: 200px;
+    background: yellow;
+    border-radius: 10px;
+}
+.cardText{
+    margin-bottom: 20px;
+}
